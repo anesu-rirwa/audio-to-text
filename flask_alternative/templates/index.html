@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio to Text Transcription</title>
+</head>
+<body>
+    <h1>Audio to Text Transcription</h1>
+    <form action="/transcribe" method="post" enctype="multipart/form-data">
+        <label for="audio">Upload your audio file (wav, mp3, flac):</label><br><br>
+        <input type="file" name="audio" id="audio" required><br><br>
+        <button type="submit">Transcribe</button>
+    </form>
+</body>
+</html>
