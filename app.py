@@ -38,7 +38,7 @@ def process_audio():
     transcribed_text = transcription['text']
 
     # Return the transcribed text
-    return render_template('result.html', transcribed_text=transcribed_text)
+    return render_template('results.html', transcribed_text=transcribed_text)
 
 if __name__ == '__main__':
     app.run(debug=True)
